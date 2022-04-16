@@ -1,5 +1,5 @@
 # instructions
 
 
-![image1](image1.png)
-![image2](image2.png)
+[link1](https://commonmark.org/help/)
+[link2](https://www.youtube.com/watch?v=k67e-Icw4ug)
