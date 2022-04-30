@@ -20,6 +20,6 @@ public class MarkdownParseTest {
         Path fileName = Path.of("test-file.md");
         String content = Files.readString(fileName);
             //test
-        assertEquals(0, MarkdownParse.getLinks(content));
+        assertEquals(test, MarkdownParse.getLinks(content));
     }
 }
