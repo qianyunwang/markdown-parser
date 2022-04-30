@@ -17,7 +17,7 @@ public class MarkdownParseTest {
         test.add("https://something.com");
         test.add("some-thing.html");
 
-        Path fileName = Path.of("/Users/qianyunwang/Documents/GitHub/markdown-parser/test-file.md");
+        Path fileName = Path.of("test-file.md");
         String content = Files.readString(fileName);
             //test
         assertEquals(0, MarkdownParse.getLinks(content));
