@@ -19,7 +19,7 @@ public class MarkdownParseTest {
 
         Path fileName = Path.of("/Users/qianyunwang/Documents/GitHub/markdown-parser/test-file.md");
         String content = Files.readString(fileName);
-
-        assertEquals(test, MarkdownParse.getLinks(content));
+            //test
+        assertEquals(0, MarkdownParse.getLinks(content));
     }
 }
