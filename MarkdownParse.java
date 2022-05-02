@@ -21,6 +21,15 @@ public class MarkdownParse {
             currentIndex = closeParen + 1;
         }
 
+
+        for (int i = 0; i < toReturn.size(); ++i) {
+            if (toReturn.get(i).contains(".png")) {
+                toReturn.remove(i);
+                i -= 1;
+            }
+        }
+
+
         return toReturn;
     }
 
