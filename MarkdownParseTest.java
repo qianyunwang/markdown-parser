@@ -23,6 +23,7 @@ public class MarkdownParseTest {
         assertEquals(test, MarkdownParse.getLinks(content));
     }
 
+    /*
     @Test
     public void testgetlinks2() throws IOException{
         ArrayList<String> test = new ArrayList<>();
@@ -34,4 +35,5 @@ public class MarkdownParseTest {
             //test
         assertEquals(test, MarkdownParse.getLinks(content));
     }
+    */
 }
