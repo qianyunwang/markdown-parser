@@ -9,7 +9,6 @@ public class MarkdownParse {
 
     public static ArrayList<String> getLinks(String markdown) {
         ArrayList<String> toReturn = new ArrayList<>();
-        //check when the markdown is empty
         if (markdown.isEmpty()) {
             return toReturn;
         }
