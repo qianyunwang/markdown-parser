@@ -9,7 +9,7 @@ public class MarkdownParse {
 
     public static ArrayList<String> getLinks(String markdown) {
         ArrayList<String> toReturn = new ArrayList<>();
-        //
+        //check
         if (markdown.isEmpty()) {
             return toReturn;
         }
